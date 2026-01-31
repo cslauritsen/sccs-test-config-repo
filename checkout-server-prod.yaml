@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: checkout-server
+app:
+  name: checkout-server
+  env: prod
+server:
+  port: 8082
+logging:
+  level:
+    root: INFO
+    com.shw: INFO

@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: merchant-server
+
+app:
+  name: merchant-server
+  env: non-prod
+
+server:
+  port: 8081
+
+logging:
+  level:
+    root: DEBUG
+    com.shw: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics

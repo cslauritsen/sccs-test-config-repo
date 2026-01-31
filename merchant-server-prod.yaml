@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: merchant-server
+
+app:
+  name: merchant-server
+  env: prod
+
+server:
+  port: 8081
+
+logging:
+  level:
+    root: INFO
+    com.shw: INFO
