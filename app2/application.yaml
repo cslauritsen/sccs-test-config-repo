@@ -1,3 +1,6 @@
 
 db:
   user: app2-bob
+
+info:
+  foo: app2-foo-value
